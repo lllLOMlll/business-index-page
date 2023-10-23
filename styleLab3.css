@@ -1,0 +1,471 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #4883ff;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#wrapper{
+	width: 1530px;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	display: block;
+	line-height: 0px;
+	font-family: Raleway, sans-serif;
+}
+/***************************************************
+Top Section; logo & menu
+***************************************************/
+nav{
+	height: 75px;
+	background-color: white;
+	padding-left: 300px;
+	padding-bottom: 0px;
+	display: inline-flex;/*Displays an element as an inline-level flex container. logo image & menu are displayed in one line with no change in position.*/
+	width: 1230px;
+}
+nav #menu {
+	margin-top: 30px;
+	margin-left: 170px;
+	width: 550px;
+	background-color: white;
+	line-height: normal;
+}
+nav #menu li{
+	display: inline-block; /*Displays an element as an inline-level block container. All items of lists are shown in a line beside each others.*/
+	padding-left: 40px;
+}
+nav #menu li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #4883ff;
+}
+nav #menu li a:hover {
+	color: #4883ff;
+	text-shadow: -5px 5px 2px black, -3px 3px 0px black;
+}
+/***************************************************
+Header
+***************************************************/
+header{
+	height: 450px;
+	background-image: url(images/main_banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1230px;
+	padding-left: 300px;
+	line-height: normal;
+}
+header div{
+	width: 550px;
+	height: 150px;
+	padding-top: 150px;
+	margin-left: 100px;
+}
+h1 {
+	text-align: left;
+	color: #FFF;
+	font-size: 30px;
+	margin-top: 0px;
+	text-decoration: none;
+	padding-top: 10px;
+}
+p {
+	text-align: left;
+	color: #FFF;
+	font-size: 20px;
+}
+header a{
+	width: 90px;
+	font-size: 13px;
+	color: white;
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #4883ff;
+}
+header a:hover{
+	background: white;
+	color: #4883ff;
+}
+/***************************************************
+Main Container
+***************************************************/
+/*********************************
+Popular Places
+**********************************/
+.main {
+	width: 1530px;
+	/*height: 450px;*/
+	line-height: normal;
+}
+#popularDiv {
+	height: 330px;
+	padding: 60px 0px;
+}
+.popular {
+	padding-top: 20px;
+}
+.popular li {
+	display: inline-block;
+	width: 215px;
+	height: 240px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.popular li img {
+	width: 100%;
+	height: 100%;
+}
+.main p {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	margin: 0px;
+}
+.main h2 {
+	text-align: center;
+	font-size: 15px;
+	color: #4883ff;
+	margin: 0px;
+}
+/*********************************
+Featured Places
+**********************************/
+#featured {
+	width: 1530px;
+	height: 600px;
+	background-color: #D4D4D4;
+	display: inline-block;
+}
+.circleBase {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background: #4883ff;
+	color: white;
+	margin: 30px 20px 0px 170px;
+}
+h5 span  {
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+h5 {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	margin-top: 0;
+}
+.title {
+	width: 1500px;
+	height: 60px;
+	padding: 60px 0px 10px;
+}
+.block {
+	display: flex;
+	margin-left: 350px;
+
+}
+.block .featured {
+	width: 270px;
+	height: 380px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 1px solid #D4D4D4;
+	border-radius: 5px;
+}
+.featured#featured1 {
+	background: url(images/stars.png)no-repeat, url(images/featured_item_1.jpg)no-repeat;
+	background-size: 80px 15px, 270px 220px;
+	background-position: 7% 7%, 0% 0%;
+	background-color: white;
+}
+.featured#featured2 {
+	background: url(images/stars.png)no-repeat, url(images/featured_item_2.jpg)no-repeat ;
+	background-size: 80px 15px, 270px 220px;
+	background-position: 7% 7%, 0% 0%;
+	background-color: white;
+}
+.featured#featured3 {
+	background: url(images/stars.png)no-repeat, url(images/featured_item_3.jpg)no-repeat;
+	background-size: 80px 15px, 270px 220px;
+	background-position: 7% 7%, 0% 0%;
+	background-color: white;
+}
+#featured a{
+	width: 96px;
+	font-size: 10px;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+	/*padding: 5px;*/
+	padding: 10px;
+	border: 1px solid #D4D4D4;
+	margin: 5px 0px 0px;
+}
+#featured a:hover{
+	background: #D4D4D4;
+	color: grey;
+}
+#featured .greengrade {
+	margin: 15px 12px 0;
+	border-spacing: 0;	
+}
+h3 {
+	color: black;
+	line-height: 80%;
+	padding-top: 110px;
+	padding-left: 15px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+h3 span {
+	font-size: 13px;
+	color: #4883ff;
+}
+.block p {
+	text-align: left;
+	color: grey;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 10px;
+}
+/*********************************
+Our Services
+**********************************/
+#services {
+	width: 1530px;
+	height: 450px;
+	background-color: white;
+	display: inline-block;
+	line-height: normal;
+}
+.services {
+	width: 270px;
+	height: 240px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 1px solid #D4D4D4;
+	border-radius: 5px;
+	background-color: #FFF;
+	background-size: 50px 50px;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+}
+.services#services1 {
+	background-image: url(images/service_icon_1.png);
+}
+.services#services2 {
+	background-image: url(images/service_icon_2.png);
+}
+.services#services3 {
+	background-image: url(images/service_icon_3.png);
+}
+.services h3 {
+	padding-top: 100px;
+	text-align: center;
+}
+.services p {
+	text-align: center;
+}
+/*********************************
+Highway Image
+**********************************/
+.main .image {
+	height: 450px;
+	background-image: url(images/highway.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1230px;
+	padding-left: 300px;
+	line-height: normal;
+}
+/*********************************
+Pricing Tables
+**********************************/
+.main #pricing {
+	width: 1530px;
+	height: 600px;
+	background-color: #FFF;
+	display: inline-block;
+}
+.pricing {
+	text-align: center;
+	width: 270px;
+	height: 390px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 5px;
+	background-color: #D4D4D4;
+	background-size: 270px 220px;
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+}
+.pricing p {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px
+}
+#pricing a{
+	margin: 40px 80px;
+	width: 90px;
+	font-size: 13px;
+	color: white;
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #4883ff;
+}
+#pricing a:hover{
+	background: #D4D4D4;
+	color: grey;
+}
+.greengrade1 {
+	background: #FFF;
+}
+.plan {
+	width: 270px;
+	height: 100px;
+	background-color: #4883ff;
+	border-radius: 5px 5px 0px 0px;
+}
+h4 {
+	color: #FFF;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 5px;
+	font-size: 15px;
+}
+h4 span {
+	font-size: 20px;
+}
+/*********************************
+Map Image
+**********************************/
+.main .imageMap {
+	height: 450px;
+	background-image: url(images/map.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1230px;
+	padding-left: 300px;
+	line-height: normal;
+}
+/*********************************
+Contact Us
+**********************************/
+#contact {
+	width: 1530px;
+	height: 120px;
+	text-align: center;
+	display: inline-block;
+	padding: 45px 0px;
+	background-color: #FFF;
+}
+#contact a{
+	margin: 20px 715px;
+	width: 90px;
+	font-size: 15px;
+	color: white;
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	background: #4883ff;
+}
+/*********************************
+Footer
+**********************************/
+#footer {
+	width: 980px;
+	height: 200px;
+	text-align: left;
+	display: inline-block;
+	padding: 60px 250px 60px 300px;
+	background-color: #FFF;
+	border-top: 1px solid #D4D4D4;
+}
+footer .leftList.rightList {
+	width: 50%;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+footer ul {
+	font-size: 20px;
+	margin-top: 0;
+	padding: 10px;
+	list-style: square;
+	color: #4883ff;
+	margin-left: 10px;
+}
+div.leftList {
+	width: 150px;
+}
+footer a{
+	color: #A9A9A9;
+	font-size: 10px;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #4883ff;
+}
+footer div{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+.gallery {
+	padding-left: 0px;
+}
+.gallery li {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.gallery li img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.5;/*make it fade*/
+}
+.gallery li img:hover {
+	opacity: 1;
+}
+#footer p {
+	font-size: 10px;
+	text-align: left;
+}
+#footer h3 {
+	color: black;
+	line-height: normal;
+	padding-top: 0px;
+	padding-left: 0px;
+	font-size: 15px;
+}
+#footer #lastP {
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+#footer #lastP a {
+	color: #4883ff;
+}
+#footer #lastP a:hover {
+	text-decoration: underline;
+}
+.copyright {
+	height: 10px;
+	background-color: #D4D4D4;
+	color: #FFF;
+	text-align: center;
+	padding: 25px 0;
+	margin: 0;
+	font-size: 15px;
+	background-position: 50% 50%;
+}
